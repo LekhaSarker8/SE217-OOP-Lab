@@ -10,7 +10,7 @@ This repository contains my Java programming exercises and practice codes based 
 
 * **Name:** Lekha Sarker
 * **Student ID:** 252-35-222
-* **Section:** G-2
+* **Section:** G-1
 * **Course:** SE217 - Object-Oriented Programming
 * **Lab:** OOP Lab
 
