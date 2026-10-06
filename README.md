@@ -1,158 +1,113 @@
-# SE217-OOP-Lab
-Beginner-friendly Java basic syntax practice and study notes covering variables, data types, control flow, loops, arrays, strings, scanner input, and methods.
-Java-Basic-Syntax
-A structured, beginner-friendly practice repository covering the core fundamentals of Java programming.
+# SE217 OOP Lab
 
-Project Description
-This repository contains organized, step-by-step code examples and concise study notes for beginners learning Java syntax. Every topic is isolated in its own dedicated directory containing working Java source code and a conceptual README.md guide.
+A beginner-friendly Java practice repository created for the SE217 Object-Oriented Programming Lab.
 
-Purpose of the Project
-The goal of this project is to build a rock-solid foundation in Java's basic syntax and procedural programming concepts—such as variables, primitive types, decision-making, loops, arrays, string manipulation, user input, and methods—before advancing to Object-Oriented Programming (OOP) and complex frameworks.
+## About This Repository
 
-Playlist Reference
-The practice exercises and notes in this repository are based on the YouTube playlist:
+This repository contains my Java programming exercises and practice codes based on the fundamental concepts covered in the Java Basic Syntax playlist. The programs are organized for easy practice and reference while learning the basics of Java programming.
 
-Course Playlist: Java Basic Syntax Bangla Tutorial (by Bangla Coding Tutor)
-Note: This repository specifically focuses on beginner Java practice based on the topics taught in the playlist above. No advanced OOP, collections, or external frameworks are introduced prematurely.
+## Student Information
 
-List of Topics Covered
-01-IDE-Project-Package-Class: Java environment (JDK, JRE, JVM), project structure, class declarations, and the main method.
-02-Print-Options: Outputting text via print(), println(), escape sequences (\n, \t, \"), and concatenation.
-03-Data-Type-Variables: Variable declaration, memory allocation, value initialization, and naming rules.
-04-Basic-Data-Types: Java's primitive types (byte, short, int, long, float, double, char, boolean).
-05-If-Else: Conditional logic and binary decision-making.
-06-If-Else-If: Multi-branch conditional chains and precedence.
-07-Switch-Case: Discrete value matching with switch, case, break, and default.
-08-Operators: Arithmetic, relational, logical (&&, ||, !), compound assignment, unary (++, --), and operator precedence.
-09-For-Loop: Counter-controlled iteration, counting up, counting down, and calculating series.
-10-While-Loop: Pre-test loops executing repeatedly based on dynamic conditions.
-11-Do-While-Loop: Post-test loops guaranteed to execute at least once.
-12-Nested-Loop: Multidimensional loops for printing tables, grids, and geometric patterns.
-13-Array: Single-dimensional arrays, zero-based indexing, .length property, and array traversal.
-14-2D-Array: Two-dimensional matrices (rows and columns) and nested traversal.
-15-String: String creation, immutability, essential string methods, and content comparison with .equals().
-16-String-Split: Tokenizing and splitting text with delimiters into string arrays using .split().
-17-Scanner-User-Input: Taking interactive keyboard input from System.in using java.util.Scanner.
-18-Methods: Modular programming, methods with parameters, return types, and the static keyword.
-19-Method-Exercise: Practical algorithmic problem solving using methods (maximum finding, factorial calculation, array summation).
-20-Summary: Review of all foundational lessons and guidance on next steps (OOP, Collections, Exceptions).
-Folder Structure
-Java-Basic-Syntax/
-│
-├── 01-IDE-Project-Package-Class/
-│   ├── Main.java
-│   └── README.md
-│
-├── 02-Print-Options/
-│   ├── PrintExample.java
-│   └── README.md
-│
-├── 03-Data-Type-Variables/
-│   ├── VariablesExample.java
-│   └── README.md
-│
-├── 04-Basic-Data-Types/
-│   ├── DataTypesExample.java
-│   └── README.md
-│
-├── 05-If-Else/
-│   ├── IfElseExample.java
-│   └── README.md
-│
-├── 06-If-Else-If/
-│   ├── IfElseIfExample.java
-│   └── README.md
-│
-├── 07-Switch-Case/
-│   ├── SwitchExample.java
-│   └── README.md
-│
-├── 08-Operators/
-│   ├── OperatorsExample.java
-│   └── README.md
-│
-├── 09-For-Loop/
-│   ├── ForLoopExample.java
-│   └── README.md
-│
-├── 10-While-Loop/
-│   ├── WhileLoopExample.java
-│   └── README.md
-│
-├── 11-Do-While-Loop/
-│   ├── DoWhileExample.java
-│   └── README.md
-│
-├── 12-Nested-Loop/
-│   ├── NestedLoopExample.java
-│   └── README.md
-│
-├── 13-Array/
-│   ├── ArrayExample.java
-│   └── README.md
-│
-├── 14-2D-Array/
-│   ├── TwoDArrayExample.java
-│   └── README.md
-│
-├── 15-String/
-│   ├── StringExample.java
-│   └── README.md
-│
-├── 16-String-Split/
-│   ├── StringSplitExample.java
-│   └── README.md
-│
-├── 17-Scanner-User-Input/
-│   ├── ScannerExample.java
-│   └── README.md
-│
-├── 18-Methods/
-│   ├── MethodExample.java
-│   └── README.md
-│
-├── 19-Method-Exercise/
-│   ├── MethodExercise.java
-│   └── README.md
-│
-├── 20-Summary/
-│   └── README.md
-│
-├── .gitignore
-└── README.md
-How to Compile and Run a Java File
-Make sure you have the Java Development Kit (JDK) installed (javac -version).
+* **Name:** Lekha Sarker
+* **Student ID:** 252-35-222
+* **Section:** G-2
+* **Course:** SE217 - Object-Oriented Programming
+* **Lab:** OOP Lab
 
-General Command
-Navigate to the root directory Java-Basic-Syntax/ in your terminal:
+## Learning Objectives
 
-# 1. Compile the Java file
-javac <Folder-Name>/<FileName>.java
+The main purpose of this repository is to practice the fundamental concepts of Java programming and develop a strong foundation before moving into advanced Object-Oriented Programming concepts.
 
-# 2. Run the compiled class (using classpath flag -cp)
-java -cp <Folder-Name> <ClassName>
-Examples
-To run the 01-IDE-Project-Package-Class example:
+The practice includes topics such as:
 
-javac 01-IDE-Project-Package-Class/Main.java
-java -cp 01-IDE-Project-Package-Class Main
-To run the interactive 17-Scanner-User-Input example:
+* Java program structure
+* Variables and data types
+* Output and basic syntax
+* Conditional statements
+* Operators
+* Loops
+* Arrays
+* Strings
+* User input
+* Methods
 
-javac 17-Scanner-User-Input/ScannerExample.java
-java -cp 17-Scanner-User-Input ScannerExample
-Basic Git and GitHub Workflow
-To clone, update, or push your own changes to GitHub, use standard Git commands:
+## Playlist Reference
 
-# 1. Initialize local repository and set default branch
-git init
-git branch -M main
+The programs in this repository are practiced from the following Java playlist:
 
-# 2. Add remote GitHub repository
-git remote add origin <YOUR_GITHUB_REPOSITORY_URL>
+**Java Basic Syntax Bangla Tutorial**
 
-# 3. Stage and commit specific files
-git add <file-path>
-git commit -m "Your commit message"
+https://www.youtube.com/playlist?list=PLdl6zXgLsy3xCae1uL6rJ8Ay9sIiyBy5I
 
-# 4. Push changes to GitHub
-git push -u origin main
+## Topics Practiced
+
+1. Java project structure, packages and classes
+2. Print and output statements
+3. Variables and data types
+4. Basic data types
+5. If-else statements
+6. If-else-if conditions
+7. Switch-case statements
+8. Operators
+9. For loop
+10. While loop
+11. Do-while loop
+12. Nested loops
+13. One-dimensional arrays
+14. Two-dimensional arrays
+15. Strings
+16. String splitting
+17. Scanner and user input
+18. Methods
+19. Method-based exercises
+20. Basic review of Java fundamentals
+
+## Repository Structure
+
+The Week 02 Java source files are stored inside the following directory:
+
+```text
+se217-oop-lab/
+│
+├── README.md
+│
+└── week02/
+    └── src/
+        ├── JavaProgram1.java
+        ├── JavaProgram2.java
+        └── ...
+```
+
+## Running the Programs
+
+Make sure the Java Development Kit (JDK) is installed on your computer.
+
+Check the installed Java version using:
+
+```bash
+java -version
+```
+
+To check the Java compiler:
+
+```bash
+javac -version
+```
+
+A Java program can be compiled using:
+
+```bash
+javac FileName.java
+```
+
+Then it can be executed using:
+
+```bash
+java FileName
+```
+
+## GitHub
+
+This repository is created as part of my SE217 OOP Lab practice. The Java source files are uploaded to GitHub and organized under the `week02/src` directory.
+
+The repository will be updated as new lab exercises and practice programs are completed.
